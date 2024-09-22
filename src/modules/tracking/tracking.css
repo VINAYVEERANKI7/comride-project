@@ -1,0 +1,97 @@
+.inputContainerStyle {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 1;
+}
+
+.track-btn {
+  border: 2px solid #1d3785;
+  color: #1d3785;
+}
+.track-input-container {
+  position: absolute;
+  background-color: white;
+  box-shadow: 0px 0px 12px #00000012;
+  border: 2px solid #f0f0f0;
+  border-radius: 10px;
+  z-index: 1;
+}
+.search-input-container {
+  background-color: #f0f0f0;
+  color: #687284;
+}
+.search-input {
+  background-color: #f0f0f0;
+  color: #687284;
+  border-radius: 5px;
+  height: 35px;
+  width: 220px;
+  border: none;
+}
+.autocomplete-input {
+  width: 35rem;
+  height: 35px;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+  padding-right: 3px;
+  margin-bottom: 20px;
+  border: none;
+}
+.box-shadow {
+  box-shadow: 0px 0px 12px #00000012;
+}
+
+.input-focus :focus-visible {
+  outline: none;
+}
+
+.input_radio:checked:after {
+  width: 7.3px;
+  height: 7.3px;
+  border-radius: 15px;
+  top: -2.8px;
+  left: 2.1px;
+  position: relative;
+  background-color: #0f203c;
+  content: "";
+  display: inline-block;
+  visibility: visible;
+  outline-offset: 0.06cm;
+  outline: 2px solid #0f203c;
+}
+
+.submit-btn {
+  background-color: #0f203c;
+}
+
+.track-radio {
+  border: 2px solid white;
+  box-shadow: 0 0 0 1px #0f203c;
+  appearance: none;
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  background-color: #fff;
+  transition: all ease-in 0.2s;
+}
+
+.track-radio:focus {
+  border: 2px solid white;
+  background-color: #0f203c;
+}
+
+.track-radio:checked {
+  background-color: #0f203c;
+}
+.info-details-centainer {
+  border-right: 1px solid #e2e2e2;
+  width: 210px;
+}
+.booking-info-container {
+  width: 350px;
+}
+.color_0F203C {
+  color: #0f203c;
+}

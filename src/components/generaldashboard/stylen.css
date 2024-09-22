@@ -1,0 +1,553 @@
+.cities-container {
+  height: 10px;
+  background-color: #f0f0f0;
+  overflow-y: auto;
+}
+
+.city {
+  margin: 0;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.city:hover {
+  background-color: lightgreen;
+}
+
+.city:active {
+  background-color: lightgreen;
+}
+
+.imagen {
+  height: 50px;
+  width: 50px;
+
+  margin-left: 180px;
+  margin-top: 18px;
+}
+.vline {
+  border-left: 3px solid rgb(133, 129, 129);
+  height: 35px;
+  margin-left: 5px;
+  margin-top: 34px;
+}
+.opens {
+  margin-top: 38px;
+  margin-left: 10px;
+  font-size: 20px;
+  color: rgb(10, 155, 106);
+  font-weight: 600;
+}
+.allcities {
+  border: 1px solid rgb(191, 181, 181);
+  max-height: 35px;
+  width: 105px;
+  padding: 5px;
+  margin-top: 38px;
+  margin-left: 670px;
+  border-radius: 5px;
+  color: #0f203c;
+}
+
+.dropdown {
+  margin-top: 48px;
+  margin-left: -25px;
+  font-size: 20px;
+}
+
+.inr {
+  border: 1px solid rgb(191, 181, 181);
+  max-height: 35px;
+  width: 70px;
+  padding: 5px;
+  margin-top: 38px;
+  margin-left: 15px;
+  border-radius: 5px;
+  color: #0f203c;
+  font-weight: 500;
+  color: #0f203c;
+}
+.dropdowni {
+  margin-top: 48px;
+  margin-left: -25px;
+  font-size: 20px;
+}
+.dapp {
+  margin-top: 38px;
+  margin-left: 15px;
+  border: 1px solid rgb(225, 225, 221);
+  padding: 5px;
+  width: 130px;
+  max-height: 35px;
+  border-radius: 5px;
+  font-weight: 500;
+  color: #0f203c;
+}
+.dapp:hover {
+  /* background-color: #464444; */
+  background-color: #dfe3e4;
+  color: white;
+}
+.dropdown-content {
+  position: absolute;
+  top: 90px;
+  left: 1015px;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+
+  width: 280px;
+}
+
+.popup {
+  position: absolute;
+  top: 90px;
+
+  left: 1015px;
+  background-color: white;
+  box-shadow: 0px 0px 12px #00000012;
+  border: 2px solid #f0f0f0;
+  border-radius: 10px;
+
+  z-index: 1;
+  width: 280px;
+}
+.popupstyles {
+  position: relative;
+  display: inline-block;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.searchstyles {
+  position: absolute;
+  left: 9px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: gray;
+}
+.inputstyles {
+  padding: 9px;
+  padding-left: 25px;
+  border: 1px solid #2e83c4;
+  width: 220px;
+  margin-left: 3px;
+  border-radius: 5px;
+}
+
+input:focus {
+  border: 1px solid #2e83c4;
+  outline-style: none;
+}
+.livesectionstyles {
+  height: 65px;
+  width: 100%;
+  background-color: #daecfa;
+  display: flex;
+}
+
+.liveimage {
+  height: 50px;
+  width: 60px;
+  margin-top: 8px;
+  margin-left: 30%;
+  background-color: transparent;
+}
+.ongstyle {
+  margin-left: 38px;
+  margin-top: 20px;
+  font-weight: 550;
+  color: gray;
+  font-size: 17px;
+}
+.oline {
+  border-left: 1px solid rgb(191, 181, 181);
+  height: 35px;
+  margin-left: 15%;
+  margin-top: 20px;
+}
+.todaystyle {
+  margin-left: 15%;
+  font-size: 17px;
+  font-weight: 400;
+  cursor: pointer;
+}
+.peakstyle {
+  margin-left: 9px;
+}
+.allstyle {
+  margin-left: 8%;
+  font-size: 17px;
+  font-weight: 400;
+  text-decoration: none;
+  color: rgb(32, 31, 31);
+}
+.silverbg {
+  background-color: #eceff2;
+  height: 2100px;
+  margin-top: -15px;
+  position: relative;
+}
+
+.whitebg {
+  box-shadow: 0px 0px 12px #00000012;
+  height: 50vh;
+  width: 77vw;
+  margin-left: 1%;
+  margin-top: -10px;
+  border-radius: 10px;
+  position: absolute;
+}
+.three {
+  height: 26vh;
+  width: 22vw;
+  border: 1px solid rgb(229, 227, 227);
+  border-radius: 10px;
+  margin-top: 24px;
+}
+.greenbg {
+  background-color: rgb(240, 251, 240);
+}
+.bluebg {
+  background-color: white;
+  margin-left: 50px;
+}
+.bluebg:hover {
+  background-color: #d4e3f1;
+}
+.orangebg {
+  background-color: white;
+  margin-left: 50px;
+}
+.Completedtrips {
+  font-size: 20px;
+  margin-left: 27%;
+  color: #686d78;
+  margin-top: 20px;
+}
+.infostyles {
+  margin-left: 10px;
+  margin-top: 30px;
+  font-size: 15px;
+  color: #c2c6cf;
+}
+.infostyles:hover {
+  color: #0f203c;
+}
+.blackpopup {
+  position: absolute;
+  top: 72px;
+
+  left: 150px;
+  background-color: rgb(45, 42, 42);
+  box-shadow: 0px 0px 12px #00000012;
+  border: 2px solid #f0f0f0;
+  border-radius: 10px;
+  color: white;
+  z-index: 1;
+  width: 271px;
+  height: 41%;
+}
+.sevenstyles {
+  font-size: 40px;
+  font-weight: 600;
+  color: rgb(77, 72, 72);
+  margin-top: -5px;
+  text-align: center;
+}
+.oneeightstyles {
+  font-size: 20px;
+  color: rgb(98, 201, 98);
+  font-weight: 500;
+  margin-top: -15px;
+  text-align: center;
+}
+
+.oneeightstyles span {
+  background-color: rgb(232, 244, 232);
+  border-radius: 4px;
+}
+.searches {
+  font-size: 20px;
+  margin-left: 36%;
+
+  margin-top: 20px;
+
+  color: #686d78;
+}
+.twosevenstyles {
+  font-size: 20px;
+  color: rgb(83, 169, 234);
+  font-weight: 500;
+  margin-top: -15px;
+  text-align: center;
+}
+.twosevenstyles span {
+  border-radius: 4px;
+  background-color: rgb(235, 243, 251);
+}
+.blacksecondpopup {
+  position: absolute;
+  top: 72px;
+
+  left: 42%;
+  background-color: rgb(45, 42, 42);
+  box-shadow: 0px 0px 12px #00000012;
+  border: 2px solid #f0f0f0;
+  border-radius: 10px;
+  color: white;
+
+  width: 282px;
+  height: 26%;
+}
+.nosearches {
+  margin-left: 12px;
+  margin-top: 5px;
+}
+.onesixstyles {
+  font-size: 20px;
+  color: orange;
+
+  font-weight: 500;
+  margin-top: -15px;
+  text-align: center;
+}
+.onesixstyles span {
+  border-radius: 4px;
+  background-color: rgb(253, 241, 220);
+}
+.orangebg:hover {
+  background-color: rgb(247, 233, 208);
+}
+.blackthirdpopup {
+  position: absolute;
+  top: 72px;
+
+  left: 78%;
+  background-color: rgb(45, 42, 42);
+  box-shadow: 0px 0px 12px #00000012;
+  border: 2px solid #f0f0f0;
+  border-radius: 10px;
+  color: white;
+  z-index: 1;
+  width: 285px;
+  height: 41%;
+}
+.conversion {
+  margin-top: 35px;
+  margin-left: 23px;
+  font-size: 18px;
+  font-weight: 400;
+  color: rgb(77, 72, 72);
+}
+
+.info {
+  margin-left: 10px;
+  margin-top: 42px;
+  font-size: 15px;
+  color: #c2c6cf;
+}
+.info:hover {
+  color: #0f203c;
+}
+.fourthpopup {
+  position: absolute;
+  top: 50%;
+
+  left: 5%;
+  background-color: rgb(45, 42, 42);
+  box-shadow: 0px 0px 12px #00000012;
+  border: 2px solid #f0f0f0;
+  border-radius: 10px;
+  color: white;
+
+  width: 260px;
+  height: 17%;
+}
+.vlinesmall {
+  border-left: 1px solid black;
+  height: 15px;
+  margin-left: 53%;
+  /* margin-top: 34px; */
+}
+.vlinessmall {
+  border-left: 1px solid black;
+  height: 15px;
+  margin-left: 98%;
+  margin-top: -15px;
+}
+.Allcitiesseaech {
+  position: relative;
+  display: inline-block;
+  margin-top: 30px;
+  width: 210px;
+}
+.inputstyless {
+  padding: 9px;
+  padding-left: 25px;
+  border: 1px solid rgb(214, 212, 212);
+  width: 100;
+  margin-left: 3px;
+  border-radius: 5px;
+}
+.tablestyles {
+  border: 1px solid rgb(214, 212, 212);
+  margin-top: 20px;
+  border-radius: 5px;
+
+  /* width: 100%; */
+  margin-left: 6px;
+}
+.tablestyles th {
+  border: 1px solid rgb(214, 212, 212);
+  padding: 8px;
+  text-align: center;
+  height: 20px;
+  font-size: 14px;
+  color: rgb(77, 72, 72);
+  width: 40px;
+  font-weight: 500;
+}
+
+.tablestyles th:first-child {
+  border-right: none;
+}
+
+.tablestyles th:last-child {
+  border-left: none;
+}
+.tablestyles td {
+  text-align: center;
+  font-size: 14px;
+  color: rgb(77, 72, 72);
+  font-weight: 500;
+}
+.tablestyles td:first-child {
+  margin-left: 3px;
+}
+.height {
+  height: 50px;
+}
+.height:hover {
+  background-color: #d4e3f1;
+}
+.bg {
+  background-color: #dfe3e4;
+}
+.bgc {
+  background-color: rgb(232, 222, 207);
+  border-top: 1px dashed rgb(161, 161, 161);
+}
+.startnow {
+  color: rgb(147, 143, 143);
+  font-weight: 500;
+  letter-spacing: 5px;
+  margin-left: 2px;
+}
+.bamstyles {
+  color: #0f203c;
+  font-size: 50px;
+  font-weight: 500;
+  margin-top: -30px;
+}
+.findstyles {
+  color: rgb(147, 143, 143);
+  margin-top: -70px;
+  margin-left: 91%;
+}
+.socialicons {
+  display: flex;
+  margin-left: 80%;
+  gap: 10px;
+}
+.icon {
+  height: 30px;
+  width: 30px;
+}
+.youtube {
+  color: red;
+}
+.twitter {
+  color: rgb(39, 148, 202);
+}
+.instagram {
+  color: rgb(149, 136, 226);
+}
+.facebook {
+  color: rgb(57, 169, 234);
+}
+.linkedin {
+  color: rgb(42, 146, 215);
+  border-radius: 80px;
+}
+
+.firstsearch {
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+.city {
+  margin: 0;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.hover-city:hover {
+  background-color: #f0f0f0;
+}
+.blue-text {
+  margin: 0;
+  background-color: #edf0f3;
+}
+.hydtoday-overlay {
+  position: absolute;
+  top: 300;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.grapsstyles {
+  height: 265px;
+  width: 33%;
+  margin-top: 15px;
+  margin-left: 9px;
+  border-radius: 10px;
+  border: 1px solid rgb(224, 222, 222);
+}
+.grapsbluebg {
+  background-color: rgb(223, 233, 244);
+}
+.grapsgreenbg {
+  background-color: rgb(227, 242, 232);
+  margin-left: 30px;
+}
+.grapsorangebg {
+  background-color: rgb(250, 240, 224);
+  margin-left: 30px;
+}
+.triptrends {
+  margin-top: 35px;
+  margin-left: 23px;
+  font-size: 18px;
+  font-weight: 600;
+  color: rgb(77, 72, 72);
+}
+.dropdownmaps {
+  margin-top: -50px;
+  margin-left: 65px;
+  font-size: 20px;
+}
+.tradepopup {
+  position: absolute;
+  top: 50px;
+
+  left: 570px;
+  background-color: white;
+  box-shadow: 0px 0px 12px #00000012;
+  border: 2px solid #f0f0f0;
+  border-radius: 10px;
+
+  z-index: 1;
+  width: 280px;
+}

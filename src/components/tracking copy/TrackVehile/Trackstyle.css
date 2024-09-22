@@ -1,0 +1,144 @@
+.moredetailsspace{
+  display:block;
+  text-align: right;
+  
+}
+.rider_coupon {
+  min-height: 43rem;
+  box-shadow: 0px 0px 12px #00000012;
+  border: 2px solid #f0f0f0;
+  border-radius: 20px;
+  position: absolute;
+  width: 80%;
+  left: 19%;
+  top:10%;
+}
+
+.rider_coupon_styles {
+  margin-left: 22px;
+  margin-top: 15px;
+  color: #0F203C;
+  font-size: 18px;
+}
+
+.mapContainerStyle {
+  position: relative;
+  height: 100vh;
+  width: 96%;
+  margin-left: 22px;
+  border-radius: 13px;
+  height: 100%;
+  width: 100%; 
+  /* borde-radius: inherit; */
+}
+
+.inputContainerStyle {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 1;
+}
+
+ .inputStyle  {
+  width: 250%;
+  height:35px;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+  padding-right: 3px; 
+  margin-bottom: 20px;
+  border: none;
+}
+
+ .buttonStyle {
+  position: absolute;
+ 
+  top:18%;
+  left:236%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  z-index: 2;
+  font-size: 25px; 
+};
+
+
+
+.inputContainerStyles {
+  position: relative;
+}
+
+.iconContainer {
+  position: absolute;
+  top: 75%;
+  right: 10px; 
+  transform: translateY(-50%);
+}
+
+.bx-chevron-down {
+  font-size: 24px; 
+  color: #1D3785;
+  cursor: pointer;
+}
+
+.popup {
+  position: absolute;
+  top: 50px; 
+  /* right: 300px; */
+  left:-165px;
+  background-color: white;
+  box-shadow: 0px 0px 12px #00000012;
+  border: 2px solid #f0f0f0;
+  border-radius: 10px;
+  padding: 10px;
+  z-index: 1; 
+  width:300px;
+  padding-left: 22px;
+}
+
+.popups{
+  position: absolute;
+  top: -5px;
+  right: 135px;
+  height: 20px;
+  width: 20px;
+  background-color: white;
+  transform: rotate(45deg);
+}
+
+ 
+.rotate {
+  transform: rotate(180deg);
+}
+
+.underline {
+  border-bottom: 1px solid #F0F0F0;
+  margin-bottom: 10px;
+}
+
+.flex {
+  display: flex;
+}
+
+
+
+.container {
+  width: 150%;
+  white-space: nowrap;
+}
+
+.left-column, .right-column {
+  display: inline-block;
+  width: calc(50% - 0.5px); /* Adjusted to compensate for border width */
+  vertical-align: top;
+}
+
+.vertical-line {
+  border-left: 1px solid #E2E2E2;
+  height: 160px;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 10px; /* Adjust as needed to align properly */
+  margin-bottom: 10px; /* Adjust as needed to align properly */
+margin-left: 10px;
+}
+
